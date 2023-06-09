@@ -1,0 +1,17 @@
+
+
+{% for field in form %}
+    
+<div class="form-group">
+    <label>{{field.label}}</label>
+    {{field}}    
+</div>
+{% endfor %}
+
+
+
+<button class="btn btn-red">Submit</button>
+</form>
+
+
+{% endblock body %}
